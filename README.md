@@ -4,6 +4,8 @@ REST-сервис для приёма и обработки заказов: ка
 
 **Стек:** Java 21 · Spring Boot 3.3 (Web, Data JPA, Security, Validation) · PostgreSQL 16 · Flyway · JWT (jjwt) · Maven
 
+https://github.com/user-attachments/assets/af5cd37d-7580-49a0-a942-9faa5f0f69f7
+
 ---
 
 ## Содержание
