@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/orders}
+    username: ${DB_USER:orders}
+    password: ${DB_PASSWORD:orders}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+app:
+  jwt:
+    # минимум 32 байта; в проде задаётся через переменную окружения
+    secret: ${JWT_SECRET:dev-only-secret-change-me-please-32bytes!}
+    ttl-minutes: 60
